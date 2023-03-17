@@ -7,10 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.dbconntection.LopEditActivity;
+import com.example.dbconntection.LopThemActivity;
 import com.example.dbconntection.R;
 
 import java.util.ArrayList;
@@ -79,5 +81,6 @@ public class LopHocAdapter extends BaseAdapter {
     static class Holder {
         ImageButton btn_Edit, btn_Delete;
         TextView textView_maLop, textView_tenLop;
+        Button btn_Add;
     }
 }
